@@ -1,4 +1,5 @@
 import discord
+from discord.ext import commands as cmd
 from chempy import balance_stoichiometry as balance
 
 client = cmd.Bot(command_prefix="-")

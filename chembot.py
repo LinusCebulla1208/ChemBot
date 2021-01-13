@@ -53,24 +53,32 @@ async def gif(ctx):
         print("Exception when calling DefaultApi->gifs_search_get: %s\n" % e)
 
 @client.command(name="lookup")
-async def lookup(ctx, formula):
+async def lookup(ctx, formula, property):
     f = open("data_output_file_v2.csv" ,"r")
     
-    #search
+        #search
     found_lines=[]
     for i in f.readlines():
         if(i.split(",")[0] == formula):
             found_lines.append(i)
     if not found_lines:
-        print("Nothing found.")
+        await ctx.send("Compound not found.")
     
-    #format
-    emb = discord.Embed()
-    for i in remove_duplicates(found_lines): #Remove duplicates (not sure why but there're some)
-        property=i.split(",")[1]
-        value = i.split(",")[-2]
-        unit=i.split(",")[-1].replace("NoUnit", "")
-        emb.add_field(name=i.split(",")[1], value=f"{value}{unit}")
-    await ctx.send(embed=emb)
+    if property:
+        #search for property
+        line_with_property = ""
+        for line in found_lines:
+            if property == line.split(",")[1]:
+                await ctx.send(line.split(",")[1] + " of " + line.split(",")[0] + " = " + line.split(",")[2] + " " + line.split(",")[3].replace("NoUnits", ""))
+                break
+    else:        
+       #format
+        emb = discord.Embed()
+        for i in remove_duplicates(found_lines): #Remove duplicates (not sure why but there're some)
+            property=i.split(",")[1]
+            value = i.split(",")[-2]
+            unit=i.split(",")[-1].replace("NoUnit", "")
+            emb.add_field(name=i.split(",")[1], value=f"{value}{unit}")
+        await ctx.send(embed=emb)
     
 client.run("NzYzODM0OTU4NDIyMjEyNjA4.X39evQ.FzxNFwqe5Z4jHYKGB425V5U4xdE")

@@ -52,6 +52,10 @@ async def gif(ctx):
     except ApiException as e:
         print("Exception when calling DefaultApi->gifs_search_get: %s\n" % e)
 
+@client.command(name="timezones")
+async def timezones(ctx):
+  await ctx.send("https://cdn.discordapp.com/attachments/719222444661145690/806645540019896350/karte-zeitzonen-html.jpg")
+        
 @client.command(name="lookup")
 async def lookup(ctx, formula, property):
     f = open("data_output_file_v2.csv" ,"r")

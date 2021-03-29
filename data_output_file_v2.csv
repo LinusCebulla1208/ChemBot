@@ -1459,7 +1459,7 @@ Ag2O,SolubilityProductAs,AgOH,NoUnits
 Ag2O,Density,7.14,g/cm^3
 Ag2O,Odor,Odorless,NoUnits
 Ag2O,Appearance,Black brown cubic crystal system,NoUnits
-Ag2O,Solubility,0.013 g/L 20 C;0.025 g/L 25 C
+Ag2O,Solubility,0.013 ,g/L 20 C
 Ag2O,SolubilityProduct,1.5210^8,20 C
 Ag2O,Entropy,122,J/molK
 Ag2O,HeatCapacity,65.9,J/molK

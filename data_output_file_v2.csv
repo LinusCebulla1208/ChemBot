@@ -8340,7 +8340,7 @@ Fe2O3,Appearance,brown solid,NoUnits
 Fe2O3,Solubility,Insoluble,NoUnits
 Fe2O3,DeltaGf,42.2,kJ/mol
 Fe2O3,place,New York,NoUnits
-Fe2O3,"monohydrate, decomposes,NoUnits
+Fe2O3,monohydrate, decomposes,NoUnits
 Fe2O3,Entropy,87.4,J/molK
 Fe2O3,MeltingPt,1539-1565,C
 SiO2,MolarMass,60.08,g/mol

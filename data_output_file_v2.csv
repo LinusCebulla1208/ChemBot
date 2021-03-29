@@ -286,7 +286,7 @@ FeC2O4,BoilingPtC,365.1,C
 FeC2O4,MeltingPtC,190,C
 Au2O3,MolarMass,441.93,NoUnits
 Au2O3,Appearance,brown solid,NoUnits
-Au2O3,Density,11.34,g/cm^3 at 20 C
+Au2O3,Density,11.34g/cm^3 at 20 C
 Cr1Cl2,tetrahydrate, decomposes
 Cr1Cl2,HeatCapacity,71.2,J/molK
 Cr1Cl2,MagSus,7.2310^3,cm^3/mol

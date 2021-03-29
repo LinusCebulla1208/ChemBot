@@ -4042,7 +4042,7 @@ FeC2O4,MeltingPt,190,C
 Au2O3,MolarMass,441.93,NoUnits
 Au2O3,Appearance,brown solid,NoUnits
 Au2O3,Density,11.34,g/cm^3 at 20 C
-Cr1Cl2,"tetrahydrate, decomposes, NoUnits
+Cr1Cl2,tetrahydrate, decomposes, NoUnits
 Cr1Cl2,HeatCapacity,71.2,J/molK
 Cr1Cl2,MagSus,7.2310^3,cm^3/mol
 Cr1Cl2,Density,2.88,g/cm^3 24 C

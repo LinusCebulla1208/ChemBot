@@ -6809,7 +6809,6 @@ InCl3,BoilingPtC,800,C
 InCl3,SolubleOther,THF,NoUnits
 InCl3,MeltingPt,586,C
 Cl1O,HeatCapacity,Chlorine monoxide is a chemical Radical chemistry,NoUnits
-Cl1O,"2
 Cl1O,DeltaHf,101.8,kJ/mol
 TiCl3,Density,2.64,g/cm^3
 TiCl3,MolarMass,154.225,g/mol

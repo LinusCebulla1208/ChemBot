@@ -173,7 +173,6 @@ Ag1Cl,RefractIndex,2.071,NoUnits
 Ag1Cl,SolubleOther,soluble in ammonia,NoUnits
 Ag1Cl,MeltingPtC,455,C
 H2CO3,Density,1.668,g/cm^3
-H2CO3,"-
 H2CO3,MolarMass,62.03,g/mol
 H2CO3,Solubility,Exists only in solution,NoUnits
 H2CO3,location,New York,NoUnits

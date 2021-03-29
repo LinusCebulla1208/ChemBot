@@ -6707,7 +6707,7 @@ Ca1Cl2,Entropy,108.4,J/molK
 Ca1Cl2,RefractIndex,1.52,NoUnits
 Ca1Cl2,MagSus,.4710^5,cm^3/mol
 Ca1Cl2,Appearance,White powder,NoUnits
-Ca1Cl2,"hexahydrate,decomposes,NoUnits
+Ca1Cl2,hexahydrate,decomposes,NoUnits
 Ca1Cl2,DeltaGf,48.81,kJ/mol
 Ca1Cl2,Solubility4,16.6,g/kg
 Ca1Cl2,Solubility3,0.1,g/kg 20 C

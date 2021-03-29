@@ -2428,7 +2428,7 @@ C1Si,Density,3.21,gcm^3 all polytypes
 C1Si,Appearance,black,NoUnits
 C1Si,RefractIndex,2.55,infrared; all polytypes
 C1Si,MeltingPt,2730,C
-Na2B4O710H2O,MolarMass,381.38 decahydrate;201.22 anhydrate
+Na2B4O710H2O,MolarMass,381.38, g/mol decahydrate;201.22 anhydrate
 Na2B4O710H2O,MeltingPt,743,C
 Na2B4O710H2O,Appearance,white solid,NoUnits
 Na2B4O710H2O,BoilingPtC,1575,C

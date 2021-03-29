@@ -2532,11 +2532,11 @@ NaPO2H2,MolarMass,87.98,g/mol anhydrous
 NaPO2H2,Appearance,white solid,NoUnits
 NaPO2H2,Solubility,soluble,NoUnits
 NaPO2H2,Density,0.8,g/cm^3 monohydrate
-SnCl2,Density,3.95 g/cm^3 anhydrous; 2.71 g/cm^3 dihydrate
-SnCl2,MolarMass,189.60 g/mol anhydrous;225.63 g/mol dihydrate
+SnCl2,Density,3.95,g/cm^3 anhydrous; 2.71 g/cm^3 dihydrate
+SnCl2,MolarMass,189.60,g/mol anhydrous;225.63 g/mol dihydrate
 SnCl2,Odor,odorless,NoUnits
 SnCl2,Appearance,White crystalline solid,NoUnits
-SnCl2,Solubility,83.9 g/100 ml 0 C;Hydrolysis
+SnCl2,Solubility,83.9 ,g/100 ml 0 C;Hydrolysis
 SnCl2,BoilingPtC,623,C
 SnCl2,SolubleOther,soluble in ethanol,NoUnits
 SnCl2,MeltingPt,247,C
@@ -2778,7 +2778,7 @@ V2O3,Appearance,Black powder,NoUnits
 V2O3,SolubleOther,Insoluble,NoUnits
 V2O3,MeltingPt,1940,C
 CuCl2,Density,3.386,g/cm^3 anhydrous; 2.51 g/cm^3 dihydrate
-CuCl2,MolarMass,134.45 g/mol anhydrous;170.48 g/mol dihydrate
+CuCl2,MolarMass,134.45 ,g/mol anhydrous;170.48 g/mol dihydrate
 CuCl2,Odor,odorless,NoUnits
 CuCl2,Appearance,brown solid anhydrousbr bluegreen solid dihydrate,NoUnits
 CuCl2,Solubility,70.6,g/100 mL 0 C 
@@ -2888,7 +2888,7 @@ Na1Br,Solvent3,formic acid,NoUnits
 Na1Br,Solvent2,ethanol,NoUnits
 Na1Br,Solvent5,dimethylformamide,NoUnits
 Na1Br,Solvent4,glycerol,NoUnits
-Na1Br, Insoluble in, acetone; acetonitrile
+Na1Br, Insoluble in, acetone; acetonitrile, NoUnits
 Na1Br,RefractIndex,1.6428,24 C
 Na1Br,Viscosity,1.42,cP 762 C
 Na1Br,BoilingPtC,1390,C
@@ -2901,7 +2901,7 @@ Na1Br,Solubility3,19.3,g/100 g 18 C
 Na1Br,HeNe,1.6389,24 C
 Na1Br,SolubleOther,Soluble in alcohol,NoUnits
 Na1Br,HeatCapacity,51.4,J/molK
-Na1Br,(dihydrate) decomposes
+Na1Br,dihydrate ,decomposes, NoUnits
 Na1Br,DeltaGf,49.3,kJ/mol
 Na1Br,Entropy,86.82,J/molK
 Na1Br,ThermalConductivity,5.6,W/mK 150 K
@@ -2938,7 +2938,7 @@ CaSO4,Entropy,107,Jmol^1K^1
 CaSO4,DeltaHf,-1433,kJ/mol
 CaSO4,SolubleOther,slightly soluble dihydrate,NoUnits
 CaSO4,MeltingPt,1460,C
-Ca1Cl2, tetrahydrate, decomposes
+Ca1Cl2, tetrahydrate, decomposes, NoUnits
 Ca1Cl2,Solvent1,ethanol,NoUnits
 Ca1Cl2,Solvent3,acetone,NoUnits
 Ca1Cl2,Solvent2,methanol,NoUnits
@@ -2952,7 +2952,7 @@ Ca1Cl2,Entropy,108.4,J/molK
 Ca1Cl2,RefractIndex,1.52,NoUnits
 Ca1Cl2,MagSus,.4710^5,cm^3/mol
 Ca1Cl2,Appearance,White powder,NoUnits
-Ca1Cl2,hexahydrate, decomposes
+Ca1Cl2,hexahydrate, decomposes, NoUnits
 Ca1Cl2,DeltaGf,48.81,kJ/mol
 Ca1Cl2,Solubility4,16.6,g/kg
 Ca1Cl2,Solubility3,0.1,g/kg 20 C
@@ -3082,7 +3082,7 @@ C3H9P,BoilingPtC,38,to 39 C
 C3H9P,Density,735,mg cm^3
 AlCl3,HeatCapacity,91,J/molK
 AlCl3,Density,2.48,g/cm^3 anhydrous
-AlCl3,MolarMass,133.34 g/mol anhydrous;241.43 g/mol hexahydrate
+AlCl3,MolarMass,133.34, g/mol anhydrous;241.43 g/mol hexahydrate
 AlCl3,Appearance,white or pale yellow solid,NoUnits
 AlCl3,BoilingPtC,120,C
 AlCl3,DeltaGf,-628.6,kJ/mol
@@ -3312,7 +3312,7 @@ BaTiO3,Appearance,white crystals,NoUnits
 BaTiO3,Odor,odorless,NoUnits
 BaTiO3,BandGap,3.2,eV 300 K
 BaTiO3,Solubility,insoluble,NoUnits
-BaTiO3,RefractIndex,2.412
+BaTiO3,RefractIndex,2.412, NoUnits
 BaTiO3,MeltingPt,1625,C
 Cl2O6,Density,1.65,g/cm^3
 Cl2O6,MolarMass,166.901,g/mol
@@ -3599,17 +3599,17 @@ Cd1Se,RefractIndex,2.5,NoUnits
 SiO2,Density,2.648,-quartz
 SiO2,series,Novartis Foundation Symposia,NoUnits
 SiO2,RefractIndex,1.544,Birefringence
-SiO2,orthorhombic,NoUnits
+SiO2,crystal structure, orthorhombic,NoUnits
 SiO2,MolarMass,60.08,g/mol
 SiO2,BoilingPt,2,NoUnits
-SiO2, hexagonal, NoUnits
+SiO2,crystal structure2, hexagonal, NoUnits
 SiO2,class,wikitable,NoUnits
-SiO2,cubic,NoUnits
+SiO2, crystal structure3 cubic,NoUnits
 SiO2,pmid,24336488,NoUnits
 SiO2,cubic,NoUnits
 SiO2,Appearance,Transparent solid Amorphous WhiteWhitish Yellow PowderSand,NoUnits
 SiO2,reason,what are tests,NoUnits
-SiO2,fibrous W-silica,NoUnits
+SiO2,fibrous ,W-silica,NoUnits
 SiO2,MeltingPt,1,NoUnits
 SiO2,newspaper,The New York Times,NoUnits
 SiO2,ThermalConductivity,12,<nowiki>
@@ -3752,7 +3752,7 @@ TeO2,SolubleOther,soluble in acid and alkali,NoUnits
 TeO2,MeltingPt,732,C
 Cs2CO3,Solubility4,394.2,g/L
 Cs2CO3,Density,4.072,g/cm^3
-Cs2CO3,MolarMass,325.82,g/molH3BO3,Solvent,other solvents,NoUnits
+Cs2CO3,MolarMass,325.82,g/mol
 H3BO3,Density,1.435,g/cm^3
 H3BO3,Appearance,White crystalline solid,NoUnits
 H3BO3,BoilingPtC,300,C
@@ -3791,7 +3791,7 @@ NaClO2,Odor,odorless,NoUnits
 NaClO2,Appearance,white solid,NoUnits
 NaClO2,Solubility,75.8,g/100 mL 25 C 
 NaClO2,pKa,10-11,NoUnits
-NaClO2,MeltingPt,180200 C; trihydrate decomposes at 38 C
+NaClO2,MeltingPt,180200 ,C; trihydrate decomposes at 38 C
 NaClO2,SolubleOther,slightly soluble in methanol,NoUnits
 H4Si,Density,1.342,g dm^3
 H4Si,Odor,repulsive,NoUnits
@@ -5922,7 +5922,7 @@ Be3N2,MeltingPt,2200,C
 V1F3,BoilingPt,Sublimes,NoUnits
 V1F3,MagSus,2.75710^3,cm^3/mol
 V1F3,Density,3.363,g/cm^3
-V1F3, at 760 mmHg (trihydrate) decomposes,NoUnits
+V1F3, at 760 mmHg ,(trihydrate) decomposes,NoUnits
 V1F3,Appearance,green powder anhydrous,NoUnits
 V1F3,Solubility,Insoluble,NoUnits
 V1F3,SolubleOther,Insoluble in ethanol,NoUnits
@@ -6656,7 +6656,7 @@ Na1Br,Solubility3,19.3,g/100 g 18 C
 Na1Br,HeNe,1.6389,24 C
 Na1Br,SolubleOther,Soluble in alcohol,NoUnits
 Na1Br,HeatCapacity,51.4,J/molK
-Na1Br,(dihydrate) decomposes,NoUnits
+Na1Br,dihydrate ,decomposes,NoUnits
 Na1Br,DeltaGf,49.3,kJ/mol
 Na1Br,Entropy,86.82,J/molK
 Na1Br,ThermalConductivity,5.6,W/mK 150 K
@@ -7066,7 +7066,7 @@ BaTiO3,Appearance,white crystals,NoUnits
 BaTiO3,Odor,odorless,NoUnits
 BaTiO3,BandGap,3.2,eV 300 K
 BaTiO3,Solubility,insoluble,NoUnits
-BaTiO3,RefractIndex,2.412
+BaTiO3,RefractIndex,2.412, NoUnits
 BaTiO3,MeltingPt,1625,C
 Cl2O6,Density,1.65,g/cm^3
 Cl2O6,MolarMass,166.901,g/mol
@@ -7356,7 +7356,7 @@ SiO2,RefractIndex,1.544,Birefringence
 SiO2,MolarMass,60.08,g/mol
 SiO2,BoilingPt,2,NoUnits
 SiO2,class,wikitable,NoUnits
-SiO2,"cubic;cF104, Fd<u style",decorationoverline3um,NoUnits
+SiO2,crystal Structure,cubic,NoUnits
 SiO2,pmid,24336488,NoUnits
 SiO2,Appearance,Transparent solid Amorphous WhiteWhitish Yellow PowderSand,NoUnits
 SiO2,reason,what are tests,NoUnits
@@ -7502,7 +7502,7 @@ TeO2,SolubleOther,soluble in acid and alkali,NoUnits
 TeO2,MeltingPt,732,C
 Cs2CO3,Solubility4,394.2,g/L
 Cs2CO3,Density,4.072,g/cm^3
-Cs2CO3,MolarMass,325.82,g/molH3BO3,Solvent,other solvents,NoUnits
+Cs2CO3,MolarMass,325.82,g/mol
 H3BO3,Density,1.435,g/cm^3
 H3BO3,Appearance,White crystalline solid,NoUnits
 H3BO3,BoilingPtC,300,C
@@ -7786,7 +7786,7 @@ FeC2O4,MeltingPt,190,C
 Au2O3,MolarMass,441.93,NoUnits
 Au2O3,Appearance,brown solid,NoUnits
 Au2O3,Density,11.34,g/cm^3 at 20 C
-Cr1Cl2,tetrahydrate,NoUnits
+Cr1Cl2,tetrahydrate,NoUnits,NoUnits
 Cr1Cl2,HeatCapacity,71.2,J/molK
 Cr1Cl2,MagSus,7.2310^3,cm^3/mol
 Cr1Cl2,Density,2.88,g/cm^3 24 C
@@ -7850,7 +7850,7 @@ Cr2SO4)312H2O,SolubleOther,soluble in alcohol ,NoUnits
 Ba1FeO4,language,enref,NoUnits
 Ba1FeO4,Appearance,Dark red,NoUnits
 Ba1FeO4,location,Oxford Oxfordshire,NoUnits
-Ba1FeO4,paramagnetic.
+Ba1FeO4,magnetism,paramagnetic,NoUnits
 Na3SbS4,Appearance,Yellow crystals,NoUnits
 Na3SbS4,Density,1.806,g/cm^3
 CF3SO3H,Density,1.696,g/mL
@@ -9445,7 +9445,7 @@ CNCl,MeltingPt,.55,C
 CrSO45H2O,MolarMass,238.13,pentahydrate
 CrSO45H2O,Appearance,blue solid  pentahydrate,NoUnits
 CrSO45H2O,Solubility,21,g/100 mL 0C
-Na2CO3,(decahydrate),NoUnits
+Na2CO3,decahydrate,NoUnits,NoUnits
 Na2CO3,Solvent1,glycerine,NoUnits
 Na2CO3,Solvent3,dimethylformamide,NoUnits
 Na2CO3,Solvent2,ethanediol,NoUnits
@@ -9669,7 +9669,7 @@ Be3N2,MeltingPt,2200,C
 V1F3,BoilingPtC,Sublimes,NoUnits
 V1F3,MagSus,2.75710^3,cm^3/mol
 V1F3,Density,3.363,g/cm^3
-V1F3,at 760 mmHg (trihydrate) decomposes,NoUnits
+V1F3,at 760 mmHg ,(trihydrate) decomposes,NoUnits
 V1F3,Appearance,green powder anhydrous,NoUnits
 V1F3,Solubility,Insoluble,NoUnits
 V1F3,SolubleOther,Insoluble in ethanol,NoUnits
@@ -9910,7 +9910,7 @@ Sb1Cl5,Solvent1,seleniumIV oxychloride,NoUnits
 Sb1Cl5,DeltaGf,-345.35,kJ/mol
 Sb1Cl5,Entropy,295,J/molK
 Sb1Cl5,Solubility1,62.97,g/100 g 25 C
-Sb1Cl5,at 30 mmHg,NoUnits
+Sb1Cl5,at 30 mmHg,NoUnits,NoUnits
 Sb1Cl5,units,SIref,NoUnits
 Sb1Cl5,VaporPressure,0.16,kPa 25 C
 Sb1Cl5,RefractIndex,1.59255,NoUnits
@@ -10404,7 +10404,7 @@ Na1Br,Solubility3,19.3,g/100 g 18 C
 Na1Br,HeNe,1.6389,24 C
 Na1Br,SolubleOther,Soluble in alcohol,NoUnits
 Na1Br,HeatCapacity,51.4,J/molK
-Na1Br,(dihydrate) decomposes
+Na1Br,(dihydrate) ,decomposes, NoUnits
 Na1Br,DeltaGf,49.3,kJ/mol
 Na1Br,Entropy,86.82,J/molK
 Na1Br,ThermalConductivity,5.6,W/mK 150 K
@@ -10815,7 +10815,7 @@ BaTiO3,Appearance,white crystals,NoUnits
 BaTiO3,Odor,odorless,NoUnits
 BaTiO3,BandGap,3.2,eV 300 K
 BaTiO3,Solubility,insoluble,NoUnits
-BaTiO3,RefractIndex,2.412
+BaTiO3,RefractIndex,2.412, NoUnits
 BaTiO3,MeltingPt,1625,C
 Cl2O6,Density,1.65,g/cm^3
 Cl2O6,MolarMass,166.901,g/mol
@@ -11105,7 +11105,7 @@ SiO2,RefractIndex,1.544,Birefringence
 SiO2,MolarMass,60.08,g/mol
 SiO2,BoilingPtC,2,NoUnits
 SiO2,class,wikitable,NoUnits
-SiO2,"cubic;cF104, Fd<u style",decorationoverline3um,NoUnits
+SiO2,crystal structure, cubic,NoUnits
 SiO2,pmid,24336488,NoUnits
 SiO2,Appearance,Transparent solid Amorphous WhiteWhitish Yellow PowderSand,NoUnits
 SiO2,reason,what are tests,NoUnits

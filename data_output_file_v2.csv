@@ -860,8 +860,8 @@ Cl2O,SolubleOther,4sub,NoUnits
 Cl2O,MeltingPtC,20.6,C
 Ag2S,DeltaHf,2.59,kJ/mol
 Ag2S,HeatCapacity,76.57,J/molK
-Ag2S,Odor,Odorless,NoUnits
-Ag2S,Appearance,black crystal,NoUnits
+Ag2S,Odor,Odorless, NoUnits
+Ag2S,Appearance,black crystal, NoUnits
 Ag2S,Insoluble in ,acids; alkalies; aqueous ammoniums
 Ag2S,Solubility,6.2110^15,g/L 25 C
 Ag2S,SolubilityProduct,6.3110^50,NoUnits
